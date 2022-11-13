@@ -1,6 +1,5 @@
 package com.yll.util;
 
-import com.mysql.cj.util.StringUtils;
 import com.yll.constant.Constant;
 
 import javax.servlet.http.HttpServletRequest;
@@ -13,13 +12,6 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
-/**
- *@项目名称: smbms
- *@类名称: ConvertUtil
- *@类描述:
- *@创建人: quanyixiang
- *@创建时间: 2022/11/10 20:35
- **/
 public class ConvertUtil {
 
 	public static Map<String, Object> bean2Map(Object o) {

@@ -1,24 +1,16 @@
 package com.yll.service.impl;
 
-import com.mysql.cj.util.StringUtils;
 import com.yll.dao.BaseDao;
 import com.yll.dao.UserDao;
 import com.yll.dao.impl.UserDaoImpl;
 import com.yll.pojo.User;
 import com.yll.service.UserService;
 import com.yll.util.PageSupport;
+import com.yll.util.StringUtils;
 
-import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- *@项目名称: smbms
- *@类名称: UserServiceImpl
- *@类描述:
- *@创建人: quanyixiang
- *@创建时间: 2022/11/10 19:59
- **/
 public class UserServiceImpl implements UserService {
 
 	private UserDao userDao;

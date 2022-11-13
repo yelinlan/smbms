@@ -1,17 +1,9 @@
 package com.yll.util;
 
-import com.mysql.cj.util.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *@项目名称: smbms
- *@类名称: SqlUtils
- *@类描述:
- *@创建人: quanyixiang
- *@创建时间: 2022/11/12 0:03
- **/
 public class SqlUtil {
 	public static final String WHERE = " where ";
 	public static final String AND = " and ";

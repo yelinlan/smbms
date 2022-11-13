@@ -1,7 +1,6 @@
 package com.yll.servlet.user;
 
 import cn.hutool.json.JSONUtil;
-import com.mysql.cj.util.StringUtils;
 import com.yll.constant.Constant;
 import com.yll.pojo.Role;
 import com.yll.pojo.User;
@@ -11,7 +10,7 @@ import com.yll.service.impl.RoleServiceImpl;
 import com.yll.service.impl.UserServiceImpl;
 import com.yll.servlet.common.BaseServlet;
 import com.yll.util.ConvertUtil;
-import com.yll.util.ResultData;
+import com.yll.util.StringUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -20,13 +19,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Objects;
 
-/**
- *@项目名称: smbms
- *@类名称: UserServlet
- *@类描述:
- *@创建人: quanyixiang
- *@创建时间: 2022/11/11 20:07
- **/
 public class UserServlet extends BaseServlet {
 
 	private UserService userService;

@@ -1,9 +1,7 @@
 package com.yll.servlet.bill;
 
 
-import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONUtil;
-import com.mysql.cj.util.StringUtils;
 import com.yll.constant.Constant;
 import com.yll.pojo.Bill;
 import com.yll.pojo.Provider;
@@ -14,16 +12,14 @@ import com.yll.service.impl.BillServiceImpl;
 import com.yll.service.impl.ProviderServiceImpl;
 import com.yll.servlet.common.BaseServlet;
 import com.yll.util.ConvertUtil;
+import com.yll.util.StringUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Objects;
 

@@ -1,7 +1,6 @@
 package com.yll.servlet.provider;
 
 import cn.hutool.json.JSONUtil;
-import com.mysql.cj.util.StringUtils;
 import com.yll.constant.Constant;
 import com.yll.pojo.Provider;
 import com.yll.pojo.User;
@@ -9,6 +8,7 @@ import com.yll.service.ProviderService;
 import com.yll.service.impl.ProviderServiceImpl;
 import com.yll.servlet.common.BaseServlet;
 import com.yll.util.ConvertUtil;
+import com.yll.util.StringUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
