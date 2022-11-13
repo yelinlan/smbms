@@ -4,13 +4,6 @@ import lombok.Data;
 
 import java.io.Serializable;
 
-/**
- *@项目名称: smbms
- *@类名称: ResultData
- *@类描述:
- *@创建人: quanyixiang
- *@创建时间: 2022/11/11 22:46
- **/
 @Data
 public class ResultData implements Serializable {
 

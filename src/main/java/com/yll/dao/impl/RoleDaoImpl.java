@@ -9,13 +9,6 @@ import com.yll.util.SqlUtil;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- *@项目名称: smbms
- *@类名称: UserDaoImpl
- *@类描述:
- *@创建人: quanyixiang
- *@创建时间: 2022/11/10 19:46
- **/
 public class RoleDaoImpl extends BaseDao implements RoleDao {
 	@Override
 	public List<Role> getRoleList() throws SQLException {

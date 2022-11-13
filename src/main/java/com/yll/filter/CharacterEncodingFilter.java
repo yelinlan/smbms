@@ -5,13 +5,6 @@ import com.yll.constant.Constant;
 import javax.servlet.*;
 import java.io.IOException;
 
-/**
- *@项目名称: MyServlet
- *@类名称: CharacterEncodingFilter
- *@类描述:
- *@创建人: quanyixiang
- *@创建时间: 2022/11/8 23:42
- **/
 public class CharacterEncodingFilter implements Filter {
 
 	@Override

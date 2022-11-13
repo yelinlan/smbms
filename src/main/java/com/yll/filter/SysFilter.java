@@ -8,13 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- *@项目名称: SysFilter
- *@类名称: CharacterEncodingFilter
- *@类描述:
- *@创建人: quanyixiang
- *@创建时间: 2022/11/8 23:42
- **/
+
 public class SysFilter implements Filter {
 
 	@Override

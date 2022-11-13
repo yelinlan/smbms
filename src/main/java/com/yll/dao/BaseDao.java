@@ -5,13 +5,6 @@ import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
 
-/**
- *@项目名称: smbms
- *@类名称: BaseDao
- *@类描述:
- *@创建人: quanyixiang
- *@创建时间: 2022/11/9 22:40
- **/
 public class BaseDao {
 	public static Connection conn;
 	public static String driver;

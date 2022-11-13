@@ -11,13 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- *@项目名称: smbms
- *@类名称: BaseServlet
- *@类描述:
- *@创建人: quanyixiang
- *@创建时间: 2022/11/10 22:36
- **/
 public class BaseServlet extends HttpServlet {
 
 	protected String contextPath;

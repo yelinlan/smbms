@@ -11,13 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- *@项目名称: smbms
- *@类名称: UserServlet
- *@类描述:
- *@创建人: quanyixiang
- *@创建时间: 2022/11/10 22:35
- **/
 public class LogoutServlet extends BaseServlet {
 
 	private UserService userService;
