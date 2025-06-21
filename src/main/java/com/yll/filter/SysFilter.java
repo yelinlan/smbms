@@ -14,7 +14,6 @@ public class SysFilter implements Filter {
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
 		System.out.println("CharacterEncodingFilter初始化...");
-		Filter.super.init(filterConfig);
 	}
 
 	@Override
@@ -36,6 +35,5 @@ public class SysFilter implements Filter {
 	@Override
 	public void destroy() {
 		System.out.println("CharacterEncodingFilter销毁");
-		Filter.super.destroy();
 	}
 }

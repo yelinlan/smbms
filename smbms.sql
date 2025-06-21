@@ -14,6 +14,11 @@
  Date: 13/11/2022 08:31:53
 */
 
+CREATE DATABASE
+IF
+	NOT EXISTS school CHARACTER set utf8 COLLATE utf8_general_ci;
+USE school;
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
